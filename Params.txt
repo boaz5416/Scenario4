@@ -1,0 +1,67 @@
+AT_Sys_Params.NoiseModel='Singer';
+AT_Sys_Params.dT=1;
+AT_Sys_Params.Linear_Traj_Sample_Rate=100.0;
+AT_Sys_Params.Meneuver_Sample_Rate=100.0;
+AT_Sys_Params.Ref_Point_Lat=51.5;
+AT_Sys_Params.Ref_Point_Long=-0.5;
+AT_Sys_Params.Ref_Point_Alt=50.0;
+AT_Sys_Params.Window_Width=0.5;
+AT_Sys_Params.Pt_W=500000;
+AT_Sys_Params.Ntx=1;
+AT_Sys_Params.Mtx=16;
+AT_Sys_Params.Gr_db=28;
+AT_Sys_Params.Gt_db=16;
+AT_Sys_Params.lambda=0.0316; % wave length
+AT_Sys_Params.k_jK=1.38e-23; % thermal noise [J/k]
+AT_Sys_Params.T_K=10; % thermal noise [K]
+AT_Sys_Params.Loss_db=10; % loss factor [db] (tx, rx and processing)
+AT_Sys_Params.noise_figure_db=5;% noise figure [db]
+AT_Sys_Params.Tcoh_sec=0.2; % integration time 
+AT_Sys_Params.PRF_hz=4810;      ;
+AT_Sys_Params.pw_msec=0.0208; % pulse width [msec]
+AT_Sys_Params.B_hz=8e6; % Boltzman [hz]
+AT_Sys_Params.fs_hz=8e6; % sampling rate [hz]
+AT_Sys_Params.fc_hz=9.5e9;            % Central RF Frequency[Hz]
+AT_Sys_Params.n_pris=1000; % # of PRIS in ppi
+AT_Sys_Params.dt_msec=0.1; % target position sampling time [millisec] 
+AT_Sys_Params.pd=0.9;
+AT_Sys_Params.pfa=1e-6;
+AT_Sys_Params.max_snr_pd_est=70; % above this SNR Pd will be 1
+AT_Sys_Params.rcs_m2=0.1;%0.5; % target avg. RCS [m2]
+AT_Sys_Params.pd=0.9;
+AT_Sys_Params.pfa=1e-6;
+AT_Sys_Params.max_snr_pd_est=70; % above this SNR Pd will be 1
+AT_Sys_Params.swerling_type=3; % 1 or 3!
+AT_Sys_Params.HPBW=90; % https://www.mathworks.com/help/phased/ug/swerling-3-target-models.html
+AT_Sys_Params.Nscan=3; % https://www.mathworks.com/help/phased/ug/swerling-3-target-models.html
+AT_Sys_Params.MaxChi2ToCorr=49;
+AT_Sys_Params.Track_Kill_Time=15;
+AT_Sys_Params.Track_Extrapolate_Time=5;
+AT_Sys_Params.r=2;
+AT_Sys_Params.ModelApprioriProb=0.9;
+AT_Sys_Params.Init_Pos_Err=1000;
+AT_Sys_Params.Init_Vel_Err=100;
+AT_Sys_Params.Init_Acc_Err=10;
+AT_Sys_Params.Az_Err=0.0105;
+AT_Sys_Params.El_Err=0.0105;
+AT_Sys_Params.Range_Err=6;
+% imm params
+AT_Sys_Params.Number_Of_Models=2;
+AT_Sys_Params.Init_Mu=0.5;
+AT_Sys_Params.Model_Alpha=[100,100];
+AT_Sys_Params.Model_SigmaM=[200,200];
+AT_Sys_Params.alpha=3;
+AT_Sys_Params.SigmaM=50;
+AT_Sys_Params.e2=0.006694379990141;
+AT_Sys_Params.a=6378137;
+
+AT_Sys_Params.Error_Factor=1;
+
+AT_Sys_Params.c=299792458;
+AT_Sys_Params.omega=7.2921158553e-5;
+
+
+AT_Sys_Params.BearingRateError=1e-3;
+    
+
+
